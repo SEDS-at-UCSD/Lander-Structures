@@ -20,7 +20,7 @@ Download github desktop, (which my now I am assuming you have already done) and 
 HOW TO USE: 
 
 1. {Creating Branches} 
-Never CAD directly into the main branch. For any new component or version, create a new branch! Only make a merge to main once you are very confident in your design. You can make branches and sub branch all the way to hell and gone. Make a new one for every version if you like. Each branch is like a seperate folder. You can switch between them at will.
+Never CAD directly into the main branch. For any new component or version, create a new branch! Only make a merge to main once you are very confident in your design. You can make branches and sub branch all the way to hell and gone. Make a new one for every version if you like. Each branch is like a seperate folder. You can switch between them at will. Your branches do not need to have all the same folders as main.
 
 2. {Pull Requests}
 Always start by making a pull request. This will check to see if you are using the most up to date version of your files. NEVER FORGET THIS. Otherwise you may lose valuable work. Making a pull request after you have started making changes will most likely overide your changes. 
@@ -32,6 +32,9 @@ When you are done for the day, you can make a commit. A commit tells Github that
 Two people should never work in the same branch at the exact same time. Why? Because if I make a change to the strut at the same time that you make a change, one of our changes will overide the other and github will go bork. Just make an extra branch, compare progress, and fight to the death over who did it better. 
 
 5. {Merging} 
+If you want to get up to date with changes that are on another branch, you can merge that other branch into yours. Some branches will get too far away from the original to be ever merged again. Thats okay, all good things must come to an end. 
+
+6. {Merging to Main}
 Once you are happy with an entire branch, you can solidify its place in history by making a merge to main. Once something is in main, try not to change it too much. Any changes in main will be carried over to every new branch that is created. In this way, be careful with parent child relationships between parts. If both of our assemblies rely on the same "Bulkhead1" file, we have to make sure that both of our "Bulkhead1" files are actually the same (on the inside). If not, whoever merges second will overide "Bulkhead1" and potentially reck the other assembly. In reality, Its always best to stay in your branch till things are 100% sorted out and you are 100% confident you know what you are doing. Then theres no issue. 
 
 -------------------------------------------------------------------------
