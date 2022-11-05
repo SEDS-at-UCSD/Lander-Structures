@@ -1,0 +1,16 @@
+[StartTime]
+BodyModule-Static 2.MFC=5s
+[SolverState]
+BodyModule-Static 2.MFC=2
+[MainFrame]
+BodyModule-Static 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAAPOBAAAAAEHEAAAAACMCAAAAA
+[ShowMin]
+BodyModule-Static 2.MFC=No
+[SolverType]
+BodyModule-Static 2.MFC=Linear Analysis
+[StudyType]
+BodyModule-Static 2.MFC=0
+[StudyName]
+BodyModule-Static 2.MFC=Static 2
+[Solver]
+BodyModule-Static 2.MFC=Iterative
