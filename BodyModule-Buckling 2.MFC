@@ -1,0 +1,16 @@
+[StartTime]
+BodyModule-Buckling 2.MFC=
+[SolverState]
+BodyModule-Buckling 2.MFC=2
+[MainFrame]
+BodyModule-Buckling 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMADAAAAAPOBAAAAAEHEAAAAACMCAAAAA
+[ShowMin]
+BodyModule-Buckling 2.MFC=yes
+[SolverType]
+BodyModule-Buckling 2.MFC=Linear Analysis
+[StudyType]
+BodyModule-Buckling 2.MFC=-1
+[StudyName]
+[Solver]
+BodyModule-Buckling 2.MFC=Iterative
+[StudyName1]
